@@ -1,0 +1,51 @@
+*{
+  padding: 10px;
+  box-sizing: border-box;
+}
+main, header, section, aside, footer {
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #000000;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 75rem;
+}
+
+main {
+  background: #554242;
+}
+.header {
+  background: #5c676d;
+}
+
+.hero {
+  background: #a88785;
+}
+.content {
+  background: #4d6450;
+}
+
+.sidebar {
+  border: 1px solid #000000;
+  background: #44355f;
+}
+.footer {
+  border: 1px solid #000000;
+  background: #616161;
+}
+
+@media screen and (min-width: 640px) {
+  .flex-container {
+    display: flex;
+  }
+  .content {
+    flex: 1;
+  }
+  .sidebar {
+    flex: 0 1 300px;
+  }
+}
